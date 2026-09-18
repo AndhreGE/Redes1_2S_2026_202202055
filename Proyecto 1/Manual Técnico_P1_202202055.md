@@ -1147,36 +1147,11 @@ Los precios pueden cambiar por disponibilidad, forma de pago, importación, gara
 6. Las pruebas finales obtuvieron 0 % de pérdida dentro de cada VLAN y fallos controlados entre VLAN distintas, validando conectividad e aislamiento.
 7. El banner MOTD y el apagado administrativo de puertos no utilizados fortalecen la seguridad básica del diseño.
 
----
 
-## 17. Lista final de comprobación
-
-- [x] Topología completa incluida.
-- [x] Capturas de Centro de Datos, I+D, Corporativo y Producción incluidas.
-- [x] Tabla de dominios de colisión incluida.
-- [x] Dominio compartido Legacy identificado y demostrado con tabla MAC.
-- [x] Tabla de dominios de broadcast incluida.
-- [x] Lista de comandos por dispositivo incluida.
-- [x] Tabla de VLAN incluida.
-- [x] Tabla de asignación de puertos incluida.
-- [x] Evidencia y justificación del servidor VTP incluida.
-- [x] Evidencias de Root Bridge para VLAN 15, 25, 35, 45 y 95 incluidas.
-- [ ] Agregar evidencia de Root Bridge para VLAN 55.
-- [x] Evidencia y justificación de `Po1`, `Po2` y `Po3` incluida.
-- [x] Evidencia de `show etherchannel summary` incluida.
-- [x] Evidencia de `show interfaces trunk` incluida.
-- [x] Evidencia de `show spanning-tree summary` incluida.
-- [ ] Agregar evidencia del comando exacto `show spanning-tree`.
-- [x] Pruebas de conectividad intra-VLAN incluidas.
-- [x] Pruebas de aislamiento inter-VLAN descritas.
-- [x] Presupuesto estimado incluido.
-- [ ] Etiquetar los medios en Packet Tracer y sustituir las cinco capturas de topología.
-- [ ] Copiar `Proyecto1_202202055.pkt` a la raíz del repositorio.
-- [ ] Verificar que todos los switches fueron guardados con `write memory`.
 
 ---
 
-## 18. Estructura sugerida del repositorio
+## 17. Estructura sugerida del repositorio
 
 ```text
 Proyecto1_202202055/
